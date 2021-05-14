@@ -1,9 +1,13 @@
 {
-  "*.{j,t}s?(x)": [
-    "eslint",
-    "prettier --write"
-  ],
-  "*.{css}": [
-    "stylelint"
-  ]
+	"*.{j,t}s?(x)": [
+		"eslint",
+		"prettier --write"
+	],
+	"*.{css}": [
+		"stylelint",
+		"prettier --write"
+	],
+	"*.md": [
+		"prettier --write"
+	]
 }
