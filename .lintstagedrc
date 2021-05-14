@@ -1,0 +1,9 @@
+{
+  "*.{j,t}s?(x)": [
+    "eslint",
+    "prettier --write"
+  ],
+  "*.{css}": [
+    "stylelint"
+  ]
+}
